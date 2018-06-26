@@ -5,7 +5,7 @@
     <version>1.0.0</version>
     <authors>sultan.imbayev</authors>
     <owners>IPEIT KBTU</owners>
-    <projectUrl>https://github.com/sultanimbayev/IEIT.TemplateResolver</projectUrl>
+    <projectUrl>https://github.com/sultanimbayev/IPEIT.TemplateResolver</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
 		Library for working with template files and getting their full paths everywhere in the code.
@@ -23,6 +23,6 @@
 	</frameworkAssemblies>
   </metadata>
   <files>
-	<file src="..\IEIT.TemplateResolver\content\**" target="content" />
+	<file src="..\IPEIT.TemplateResolver\content\**" target="content" />
   </files>
 </package>
