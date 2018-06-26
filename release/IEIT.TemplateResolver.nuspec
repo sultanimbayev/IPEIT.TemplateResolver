@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>IPEIT.TemplateResolver</id>
+    <version>1.0.0</version>
+    <authors>sultan.imbayev</authors>
+    <owners>IPEIT KBTU</owners>
+    <projectUrl>https://github.com/sultanimbayev/IEIT.TemplateResolver</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+		Library for working with template files and getting their full paths everywhere in the code
+	</description>
+    <releaseNotes>
+		First release
+	</releaseNotes>
+    <tags>FileSystem Templates Files</tags>
+	<frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Configuration" />
+	</frameworkAssemblies>
+  </metadata>
+  <files>
+	<file src="..\IPEIT.TemplateResolver\bin\Release\IEIT.TemplateResolver.dll" target="lib\net45"/>
+  </files>
+</package>
