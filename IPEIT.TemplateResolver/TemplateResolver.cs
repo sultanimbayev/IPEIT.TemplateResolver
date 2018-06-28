@@ -5,7 +5,7 @@ using System;
 using System.Reflection;
 using System.Configuration;
 
-namespace IEIT.TemplateResolver
+namespace IPEIT.TemplateResolver
 {
     /// <summary>
     /// Класс помогающии работать с файлами-шаблонами

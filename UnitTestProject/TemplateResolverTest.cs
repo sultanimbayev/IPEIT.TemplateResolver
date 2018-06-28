@@ -1,4 +1,4 @@
-﻿using IEIT.TemplateResolver;
+﻿using IPEIT.TemplateResolver;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Configuration;
