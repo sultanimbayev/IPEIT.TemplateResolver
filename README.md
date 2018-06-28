@@ -17,7 +17,7 @@ PM> Install-Package IPEIT.TemplateResolver
 
 
 ## Настройка
-Если у ваш проект содержит файл конфигурационный файл *(App.config)*, то после установки в него *Start* пакета, 
+Если ваш проект содержит файл конфигурационный файл *(App.config)*, то после установки в него *Start* пакета, 
 должна появиться следующая строка строка в секции `appSettings`:
 ```
 <add key="WebFramework.TemplatesPath" value="..\..\TemplateFiles" />
@@ -32,5 +32,41 @@ PM> Install-Package IPEIT.TemplateResolver
 
 Теперь библиотека готова к использованию.
 
+## Использование
 
+Допустим, что вы поместили файл *readme.txt* в папку с шаблонами.
+Тогда, вы можете получить полный путь к этому файлу с помощью следующих строк:
 
+```C#
+var path = TemplateResolver.ResolveFilePath("readme.txt");
+Console.WriteLine(path);
+```
+
+либо проще:
+
+```C#
+var path = TemplateResolver.ResolveFilePath("readme");
+Console.WriteLine(path);
+```
+
+Все методы находятся в классе TemplateResolver.
+Не забудьте добавить пространство имен:
+```C#
+using IPEIT.TemplateResolver;
+```
+
+Можно не указывать некоторые расширения файлов, они автоматический подставятся.
+На данный момент можно не указывать названия следующих расширении:
+```
+txt|pdf|rtf|ppt|pptx|xls|xlsx|doc|docx
+```
+
+Вы спокойно можете хранить свои шаблоны в подпапках. Получить к ним полный путь можно будет так:
+
+```C#
+var path = TemplateResolver.ResolveFilePath("подпапка\\readme");
+Console.WriteLine(path);
+```
+
+Если же вы по какой-то причине захотели получить путь к папке шаблонов,
+то это можно слелать через метод `TemplateResolver.GetTemplatesDir()`
