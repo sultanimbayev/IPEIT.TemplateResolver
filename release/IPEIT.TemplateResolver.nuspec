@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>IPEIT.TemplateResolver</id>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <authors>sultan.imbayev</authors>
     <owners>IPEIT KBTU</owners>
     <projectUrl>https://github.com/sultanimbayev/IPEIT.TemplateResolver</projectUrl>
@@ -11,7 +11,7 @@
 		Library for working with template files and getting their full paths everywhere in the code
 	</description>
     <releaseNotes>
-		First release
+		Namespace changed from IEIT to IPEIT
 	</releaseNotes>
     <tags>FileSystem Templates Files</tags>
 	<frameworkAssemblies>

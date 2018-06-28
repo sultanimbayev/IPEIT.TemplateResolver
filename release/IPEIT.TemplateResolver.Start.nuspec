@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>IPEIT.TemplateResolver.Start</id>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <authors>sultan.imbayev</authors>
     <owners>IPEIT KBTU</owners>
     <projectUrl>https://github.com/sultanimbayev/IPEIT.TemplateResolver</projectUrl>
@@ -12,11 +12,11 @@
 		This is the quick start package that transforms your configuration file and creates a folder for your templates.
 	</description>
     <releaseNotes>
-		First release
+		Namespace were changed from IEIT to IPEIT
 	</releaseNotes>
     <tags>FileSystem Templates Files</tags>
 	<dependencies>
-		<dependency id="IPEIT.TemplateResolver" version="1.0.0"/>
+		<dependency id="IPEIT.TemplateResolver" version="1.1.0"/>
 	</dependencies>
 	<frameworkAssemblies>
       <frameworkAssembly assemblyName="System.Configuration" />
