@@ -1,5 +1,7 @@
 # IPEIT.TemplateResolver
 
+[Read english version](README-Eng.md)
+
 Маленькая библиотека для получения полного пути к файлам-шаблонам находящиеся в одной папке.
 
 ## Установка
