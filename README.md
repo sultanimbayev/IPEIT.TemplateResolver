@@ -6,7 +6,7 @@
 
 ## Установка
 
-Если у вас в решении один проект:
+Через NuGet. Если у вас в решении один проект:
 ```
 PM> Install-Package IPEIT.TemplateResolver.Start
 ```

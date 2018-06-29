@@ -4,7 +4,7 @@ This is a tiny library for getting full path to the directory containing templat
 
 ## Install
 
-If you have only one project in your solution:
+Via NuGet. If you have only one project in your solution:
 ```
 PM> Install-Package IPEIT.TemplateResolver.Start
 ```
